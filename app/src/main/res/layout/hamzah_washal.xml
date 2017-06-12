@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="Hamzah wasl di awal kata adalah huruf tambahan yang hanya di baca ketika hamzah tersebut berada di permulaan bacaan dan di gugurkan bacaanya/tidak di baca jika di sambung dengan kata sebelumnya. Hamzah wasl terkadang harus di baca kasrah, dhommah ataupun fatha tergantung pada sebab–sebab berikut ini:
+						\n\n• Fathah
+						\nApabila hamzah wasal bertemu dengan lam ta’rif. Contoh :"/>
+
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/hamzah_qobla_lamtarif"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\nDi baca: attaaibuunal’aaduun
+						\n\n• Dhommah 
+						\nHuruf ketiga pada kata kerja berbaris dhommah kecuali pada surah Al-Ahqaaf : 04 (di baca dengan kasrah mengikuti hukum ibdal). Contoh :"/>
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/hamzah_dhommah"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\nDi baca : Ud’u
+						\n\n• Kasrah 
+						\nPada kata nama masdar tanpa lam ta’rif yang terdiri dari lima atau enam huruf. Contoh :"/>
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/hamzah_kasrah1"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\nDi baca : istikbaaraa
+						\nHuruf ketiga pada kata kerja berbaris fatha atau kasrah."/>
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/hamzah_kasrah2"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\nDi baca : ihdinaa"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

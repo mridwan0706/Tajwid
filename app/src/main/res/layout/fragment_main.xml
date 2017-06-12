@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Panduan Tajwid" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        
+        <Button
+	        android:id="@+id/tajwid"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="Pelajari tajwid"
+	        style="@style/ButtonStyle" />
+	    
+	    <Button
+	        android:id="@+id/quiz"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="24dp"
+	        android:text="Kuis"
+	        style="@style/ButtonStyle" />
+	        
+	    <Button
+	        android:id="@+id/info"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="24dp"
+	        android:text="Tentang Aplikasi"
+	        style="@style/ButtonStyle" />
+	    
+    </LinearLayout>
+    
+</RelativeLayout>

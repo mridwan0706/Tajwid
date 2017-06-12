@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="Iqlab yaitu mengganti huruf nun mati atau tanwin menjadi seperti huruf mim mati, jika nun atau tanwin bertemu dengan huruf Ba, kadar panjangnya 2 harakat. Penulisan iqlab juga sering di beri tanda dengan huruf mim kecil.
+	        			\n\n• Huruf iqlab hanya ada satu yaitu :"/>
+
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/iqlab"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Contoh-contoh iqlab :"/>
+	    
+	    <upward.tajwid.widget.GifMovieView android:id="@+id/gif"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="8dp" />
+	    
+	    <ImageView android:id="@+id/play"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:src="@drawable/btn_play"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

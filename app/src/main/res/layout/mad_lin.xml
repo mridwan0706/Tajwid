@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="Mad lin atau mad layyin terjadi di huruf berbaris atas (fathah dan dhomah) bertemu dengan huruf (ya') atau (wawu) bertanda sukun, sedangkan di depannya lagi ada satu huruf lagi yang di matikan karena waqaf (berhenti).
+	        			\nAtau dalam bahasa penjelasan yang lebih muda adalah bacaan miring (lin) bertemu satu huruf yang di matikan karena waqof (berhenti). Yang di maksud bacaan miring (lin) adalah bacaan yang berbunyi seperti:
+						\n-Ai = fathah bertemu ya'
+						\n-Au = fathah bertemu wawu
+						\n\n• Cara membaca mad lin adalah di panjangkan 2, 4 atau 6 harakat. Anda boleh pilih yang mana saja, hanya saja anda harus konsisten pada pilihan pertama jika anda menemukan bacaan serupa hingga akhir bacaan. Contoh:"/>
+
+	    <upward.tajwid.widget.GifMovieView android:id="@+id/gif"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="8dp" />
+	    
+	    <ImageView android:id="@+id/play"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:src="@drawable/btn_play"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <color name="aqua">#00FFFF</color>
+    <color name="bittersweet">#FB6E51</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="light_blue">#5CD5FF</color>
+    <color name="dark_gray">#2B2B2B</color>
+    <color name="dark_tosca">#26867D</color>
+    <color name="fuchsia">#FF00FF</color>
+	<color name="gray">#444953</color>
+	<color name="light_gray">#DEDEDE</color>
+	<color name="lighter_gray">#F5F5F5</color>
+	<color name="green">#00853C</color>
+	<color name="light_green">#10E649</color>
+	<color name="lavender">#967ADC</color>
+	<color name="lime">#00FF00</color>
+	<color name="maroon">#800000</color>
+	<color name="navy">#000080</color>
+	<color name="olive">#808000</color>
+ 	<color name="orange">#DB6006</color>
+ 	<color name="purple">#9B3DE3</color>
+	<color name="red">#FF0000</color>
+ 	<color name="silver">#C0C0C0</color>
+ 	<color name="sunflower">#F6BB42</color>
+	<color name="teal">#008080</color>
+	<color name="transparent">#00000000</color>
+	<color name="tosca">#28CCA6</color>
+	<color name="white">#FFFFFF</color>
+ 	<color name="yellow">#FFFF00</color>
+ 	
+ 	<color name="tutorial_layout_color">#93333333</color>
+ 	
+ 	<color name="transparentBlack">#50000000</color>
+ 	<color name="colorPrimary">#00e676</color>
+ 	<color name="colorPrimaryDark">#00c853</color>
+ 	<color name="colorAccent">#69f0ae</color>
+ 	
+    <color name="progressbar_color_1">#df151a</color>
+    <color name="progressbar_color_2">#f4f328</color>
+    <color name="progressbar_color_3">#00da3c</color>
+    <color name="progressbar_color_4">#00cbe7</color>
+    
+</resources>

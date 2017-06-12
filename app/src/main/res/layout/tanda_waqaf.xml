@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="• Mim harus/wajib berhenti."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/mim"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Laa tidak boleh berhenti."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/lam_alif"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Jim–waqof jaiz boleh tidak berhenti, namun di sarankan untuk berhenti."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/jim"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Shad-lam-ya’ singkatan dari “al-wasl Awlaa” artinya wasal atau meneruskan bacaan."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/shad_lam_ya"/>
+	    
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Sebaiknya berhenti kemudian di sambung."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/qaf_lam_ya"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Berhenti sesaat tanpa mengambil nafas."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/sin"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Waqaf muraqabah, tanda ini selalu muncul dua kali. Cara membacanya adalah harus berhenti di salah satu saja, jika sudah berhenti pada tanda yang muncul pertama, maka tidak harus berhenti pada tanda yang kedua, begitupun sebaliknya."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/muraqabah"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

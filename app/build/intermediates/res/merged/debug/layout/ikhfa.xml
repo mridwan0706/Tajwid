@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="Dalam hukum nun mati/tanwin ikhfa terjadi apabila nun mati/tanwin bertemudengan salah satu huruf ikhfa, ikhfa ini juga sering di sebut dengan ikhfa haqiqi. Selain ikhfahaqiqi masih ada ikhfa lain yaitu ikhfa syafawi yang berkenaan dengan hukum mim mati. Huruf-huruf ikhfa ini ada 15, karena banyaknya huruf ikhfa ini mungkin akan lebih mudah jika kita menghafal huruf izhar,iqlab dan idghom dan sisanya adalah huruf ikhfa.
+	        			\n\n• Cara membacanya yaitu dengan samar-samar dan dengungnya di panjangkan 2 harakat.
+	        			\n\n• Huruf huruf ikhfa haqiqi :"/>
+
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ikhfa"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Contoh-contoh ikhfa :"/>
+	    
+	    <upward.tajwid.widget.GifMovieView android:id="@+id/gif"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="8dp" />
+	    
+	    <ImageView android:id="@+id/play"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:src="@drawable/btn_play"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

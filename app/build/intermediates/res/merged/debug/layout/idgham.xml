@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="Idgham secara bahasa berarti meleburkan atau memaskan,dalam hukum nun mati,idgham berarti meleburkan nun mati/tanwin, yang terkait dengan hukum nun mati dan tanwin ini idgham terbagi menjadi dua yaitu idgham Bi La ghunah dan Idgham bi ghunnah. Selain idgham bi la ghunah dan idgham bi ghunnah masih ada hukum idgham lain yang di bahas dalam bab hukum idgham.
+	        			\n\n• Huruf-huruf idgham adalah sebagai berikut :
+	        			\nHuruf idgham ada 6 yakni: Ya’, Ra’, Mim, Lam, Waw dan Nun. Untuk memudahkan dalam mengingat, huruf-huruf tersebut sering digabung menjadi Yanmalun"/>
+
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/idgham"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Idgham Bi La ghunnah :
+	        			\nIdgham Bi La ghunnah yaitu memasukan/meleburkan nun mati dan tanwin (idgham) tanpa di sertai dengan dengung. Huruf idgham bi la ghunnah ada dua yaitu Ra’ dan Lam :"/>
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/idgham_bilaghunnah"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Contoh Idgham Bi La ghunnah :"/>
+	    
+	    <upward.tajwid.widget.GifMovieView android:id="@+id/gif"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="8dp" />
+	    
+	    <ImageView android:id="@+id/play"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:src="@drawable/btn_play"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Idgham Bi ghunnah
+	        			\nGhunnah berarti dengung,idgham bi ghunnah adalah meleburkan nun mati atau tanwin di sertai dengan dengung. Terjadi jika nun mati/tanwin bertemu dengan huruf idgham kecuali huruf idgham bi la ghunnah (Ra’ dan Lam ). Contoh idgham bi ghunnah :"/>
+	    
+	    <upward.tajwid.widget.GifMovieView android:id="@+id/gif2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="8dp" />
+	    
+	    <ImageView android:id="@+id/play2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:src="@drawable/btn_play"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Pengecualian
+	        			\nJika nun mati dan tanwin bertemu dengan huruf idgham dalam satu kata, maka hal ini di baca jelas. Hanya ada 4 kata di dalam Al-Quran yang mengandung aturan tersebut, yaitu kata “ad dunya”,”bunyan”, ”sinwan” dan “qinwan”. Contoh pengecualian :"/>
+	    
+	    <upward.tajwid.widget.GifMovieView android:id="@+id/gif3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="8dp" />
+	    
+	    <ImageView android:id="@+id/play3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:src="@drawable/btn_play"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

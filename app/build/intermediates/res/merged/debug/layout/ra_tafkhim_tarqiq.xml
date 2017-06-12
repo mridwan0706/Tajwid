@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="A. Ra' tafkhim
+	        			\n\nRa’ tafkhim adalah cara membaca huruf ra dengan tafkhim (tebal). Ra harus di baca tafkhim atau tebal karena beberapa sebab berikut ini:
+	        			\n\n• Ra’ yang berbaris fathah atau dhommah"/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_fathah"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ yang bertanda sukun dan huruf sebelumnya berbaris fathah atau dhommah"/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_sukun"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ di hujung kalimat dibaca sebagai sukun karena waqof yang mendatangi juga diselangi huruf mad wau atau alif yang bertanda sukun dan sebelumnya ada huruf yang berbaris fathah atau dhommah"/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_waqaf"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ di hujung kalimat dibaca sebagai sukun karena waqof yang mendatangi sebelumnya terdapat huruf mati selain huruf ya’ dan sebelumnya lagi terdapat huruf yang berbaris fathah atau dhommah"/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_br"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ yang bertanda sukun selepas huruf hamzah wasal yang berbaris kasrah maupun dhommah"/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_hamzah"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ yang bertanda sukun melepas huruf yang berbaris kasrah dan selepasnya terdapat huruf isti’la’"/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_istila"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\nB. Ra' Tarqiq
+	        			\n\nRa’ tarqiq adalah cara membaca huruf ra dengan tarqiq (tipis). Ra’ harus di baca tarqiq karena beberapa sebab berikut ini:
+				        \n\n• Ra’ yang berbaris kasrah"/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_kasrah"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ yang bertanda sukun selepas huruf yang berbaris kasrah dan bertemu dengan huruf yang bukan isti’la’."/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_sukun_la_istila"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ di hujung kalimat yang disukunkan (waqaf yang mendatang) dan sebelumnya terdapat huruf sukun yang bukan huruf isti’la’ dan sebelum huruf bertanda sukun itu terdapat huruf yang berbaris kasrah."/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_sukun_sukun_laistila"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ dihujung kalimat yang disukunkan (waqaf yang mendatang) dan sebelumnya terdapat huruf ya’ bertanda sukun dan sebelumnya huruf ya bertanda sukun ini terdapat huruf yang berbaris fathah atau kasrah."/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_sukun_ya_kasrah"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ bertanda sukun di ujung kalimat karena huruf sebelumnya bertanda kasrah dan terdapat huruf isti’la’ di kalimat/kata yang kedua."/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_kasrah_sukun_istila"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

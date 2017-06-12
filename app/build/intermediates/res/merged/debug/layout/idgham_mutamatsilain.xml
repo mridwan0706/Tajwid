@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="Idgham mutamatsilain artinya dua sama jenis (sama makhroj dan sifatnya). Hukum bacaan di sebut idgham mutamatsilain yakni apabila suatu huruf bertemu huruf sesamanya,yang sama makhrojnya dan sifatnya,huruf pertama sukun (mati)dan huruf yang ke dua berharakah.
+	        			\n\n• Cara membacanya adalah memasukkan (mentasdidkan) huruf sukun yang pertama pada huruf berharakat yang ke dua dan ditekan serta di tahan tidak lebih dari satu harakat.
+	        			\n\n• Pengecualian pada pertemuan pertemuan huruf berikut ini :
+	        			\n  a. Mim sukun dan mim berharakat  idgham mislain (dengung)
+	        			\n  b. Nun sukun dan nun berharakat idgham bingunnah (dengung)
+	        			\n  c. Dan huruf mad (alif, wawu, ya’) di baca panjang sebagaimana mestinya (hukum mad)
+	        			\n\n• Contoh-contoh idgham mutamatsilain :"/>
+
+	    <upward.tajwid.widget.GifMovieView android:id="@+id/gif"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="8dp" />
+	    
+	    <ImageView android:id="@+id/play"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:src="@drawable/btn_play"/>
+	    
+	</LinearLayout>
+
+</ScrollView>

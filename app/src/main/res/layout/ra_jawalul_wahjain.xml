@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="16dp"
+	    android:orientation="vertical" >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="Ra’ jawajul wahjhain adalah cara membaca huruf ra’ dengan dua wajah, maksudnya boleh di tebalkan atau di tipiskan. Ra’ boleh di tebalkan atau di tipiskan karena beberapa sebab berikut ini:
+						\n\n• Ra’ sukun yang huruf sebelumnya berbaris kasrah dan bertemu dengan huruf isti’la’ yang berbaris kasrah juga. Lebih utama dibaca tipis."/>
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_sukun_badakasrah_qablaistila"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingMultiplier="1.5"
+	        android:text="\n• Ra’ yang di sukunkan di ujung kalimat (waqaf yang mendatang) sebelumnya terdapat huruf isti’la’ yang bertanda sukun dan sebelum huruf isti’la’, ada huruf yang berbaris kasrah. Lebih utama di baca tebal jika ra’ berbaris fathah dan lebih utama di baca tipis jika ra’ berbaris kasrah."/>
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:adjustViewBounds="true"
+	        android:layout_gravity="right"
+	        android:src="@drawable/ra_wakaf_badaistila"/>
+	    
+	</LinearLayout>
+
+</ScrollView>
